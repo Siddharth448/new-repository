@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            }
+            25% {
+                background: linear-gradient(120deg, #fad0c4, #ff9a9e);
+            }
+            50% {
+                background: linear-gradient(120deg, #fbc2eb, #a18cd1);
+            }
+            75% {
+                background: linear-gradient(120deg, #a18cd1, #fbc2eb);
+            }
+            100% {
+                background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            }
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .image {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            max-width: 600px;
+            margin: auto;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="150" height="150">
+                <circle cx="12" cy="12" r="10" /> <!-- Example circle -->
+                <line x1="12" y1="2" x2="12" y2="12" />
+                <line x1="12" y1="12" x2="22" y2="12" />
+            </svg>
+        </div>
+        <h1>Siddharth</h1>
+        <p>A passionate coder, thrives on solving complex problems with creativity and persistence. Each line of code is his canvas, where hard work and innovation converge into brilliance.</p>
+    </div>
+    <script>
+        // script.js
+        // You can add any interactivity here if needed
+    </script>
+</body>
+</html>
